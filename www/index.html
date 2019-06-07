@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">-->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">        
+        <title>Kregga</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div id="bodyOriginal">
+            <div id="header">
+                <img src="img/cat1.gif" id="catError">
+                <img src="img/happy.gif" class="cat-ok" id="catOk0">
+                <img src="img/cat0.gif" class="cat-ok" id="catOk1">
+                <img src="img/cat2.gif" class="cat-ok" id="catOk2">            
+                <img src="img/cat3.gif" class="cat-ok" id="catOk3">
+                <img src="img/star.gif" class="cat-ok" id="catOk4">            
+                
+            </div>
+            <div id="body">
+                <table id="optionsTable">
+                    <tr class="row">
+                        <td class="cell">
+                            <button class="opt" id="opt0"></button>
+                        </td>
+                        <td class="cell">
+                            <button class="opt" id="opt1"></button>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="cell">
+                            <button class="opt" id="opt2"></button>
+                        </td>
+                        <td class="cell">
+                            <button class="opt" id="opt3"></button>
+                        </td>
+                    </tr>                
+                </table>
+            </div>        
+            <div id="footer">
+                <table cellspacing="0" id="rangeTable">
+                    <tr class="row">
+                        <td class="cell" id="range1">1</td>
+                        <td class="cell" id="range2">2</td>
+                        <td class="cell" id="range3">3</td>
+                        <td class="cell" id="range4">4</td>
+                        <td class="cell" id="range5">5</td>
+                        <td class="cell" id="range6">6</td>
+                        <td class="cell" id="range7">7</td>
+                        <td class="cell" id="range8">8</td>
+                        <td class="cell" id="range9">9</td>
+                        <td class="cell" id="range10">10</td>
+                    </tr>
+                </table>                        
+
+                <button id="repeat"><img src="img/repeat.png"></button>
+            </div>        
+        </div>
+
+        <audio id="selecciona"><source src="sfx/selecciona.mp3" type="audio/mpeg"></audio>
+        <audio id="aMayus"><source src="sfx/a-mayus.mp3" type="audio/mpeg"></audio>
+        <audio id="eMayus"><source src="sfx/e-mayus.mp3" type="audio/mpeg"></audio>
+        <audio id="iMayus"><source src="sfx/i-mayus.mp3" type="audio/mpeg"></audio>
+        <audio id="oMayus"><source src="sfx/o-mayus.mp3" type="audio/mpeg"></audio>
+        <audio id="uMayus"><source src="sfx/u-mayus.mp3" type="audio/mpeg"></audio>
+        <audio id="aMinus"><source src="sfx/a-minus.mp3" type="audio/mpeg"></audio>
+        <audio id="eMinus"><source src="sfx/e-minus.mp3" type="audio/mpeg"></audio>
+        <audio id="iMinus"><source src="sfx/i-minus.mp3" type="audio/mpeg"></audio>
+        <audio id="oMinus"><source src="sfx/o-minus.mp3" type="audio/mpeg"></audio>
+        <audio id="uMinus"><source src="sfx/u-minus.mp3" type="audio/mpeg"></audio>
+        <audio id="ok"><source src="sfx/ok.mp3" type="audio/mpeg"></audio>
+        <audio id="error"><source src="sfx/error.mp3" type="audio/mpeg"></audio>
+        <audio id="yay"><source src="sfx/yay.mp3" type="audio/mpeg"></audio>        
+        <audio id="meow0"><source src="sfx/meow0.mp3" type="audio/mpeg"></audio>
+        <audio id="meow1"><source src="sfx/meow1.mp3" type="audio/mpeg"></audio>
+        <audio id="meow2"><source src="sfx/meow2.mp3" type="audio/mpeg"></audio>
+        <audio id="meow3"><source src="sfx/meow3.mp3" type="audio/mpeg"></audio>
+        <audio id="star0"><source src="sfx/star0.mp3" type="audio/mpeg"></audio>            
+        <audio id="noSfx"><source src="sfx/no.mp3" type="audio/mpeg"></audio>
+                
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
